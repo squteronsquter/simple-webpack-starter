@@ -1,0 +1,26 @@
+$color: #2a2a2a;
+$colortwo: #f4f4f4;
+$size: 10px;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: $color;
+  color: $colortwo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 90%;
+    margin: auto;
+    padding: ($size) * 10;
+  }
+}
